@@ -1,0 +1,18 @@
+Certainly! Here are the responses to each of the questions:
+
+**2.1.1. Purpose of a Primary Key:**
+The primary key in a database table serves as a unique identifier for each record or row in the table. Its primary purpose is to ensure data integrity by uniquely identifying each record and providing a reference point for establishing relationships with other tables. 
+
+**Example:** 
+Consider a database table named "Students" with columns for student ID, name, and age. To ensure that each student record is uniquely identifiable, we can designate the student ID column as the primary key. This guarantees that no two students have the same ID, enabling efficient retrieval of individual student information and preventing data duplication.
+
+**2.1.2. Difference between a DBMS and a Database:**
+A database management system (DBMS) is a software application or system that provides tools and functionalities for creating, managing, and administering databases. It serves as an interface between users and the database, allowing users to interact with the data stored in the database.
+
+On the other hand, a database refers to a structured collection of data organized and stored electronically in a computer system. It comprises tables, records, and fields that store and manage data according to a predefined schema. The DBMS manages access to the database, enforces data integrity, and provides features for querying, updating, and manipulating data.
+
+**2.1.3. Importance of Normalization in Database Design:**
+Normalization is essential in database design to eliminate data redundancy, dependency, and anomalies, thereby improving data integrity, consistency, and efficiency. It involves organizing and structuring a database schema to minimize redundancy and ensure that each piece of data is stored in only one place.
+
+**Example:**
+Consider a database for a library with a "Books" table and a "Authors" table. Without normalization, if an author's information (e.g., name, contact details) is stored in the "Books" table along with book details, it can lead to redundancy and inconsistency if the same author has written multiple books. By normalizing the database and creating a separate "Authors" table with unique author IDs, we can store author information only once and establish a relationship between books and authors using foreign keys. This improves data integrity by reducing redundancy and dependency, making it easier to update author information and maintain consistency across the database.
