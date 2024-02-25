@@ -1,0 +1,21 @@
+Certainly! Here are the definitions for each of the key terms related to databases:
+
+1. **Database:** A database is a structured collection of data organized and stored electronically in a computer system. It is designed to efficiently manage, store, and retrieve large amounts of data across various tables and relationships.
+
+2. **Table:** In a database, a table is a structured representation of data organized into rows and columns. Each row represents a record, and each column represents a specific attribute or field of the data.
+
+3. **Record:** Also known as a row, a record is a single instance or entry in a database table that contains a set of related data values. Each record represents a unique entity or occurrence in the real world.
+
+4. **Field:** A field, also known as a column, is a single data element within a record or row of a database table. It represents a specific attribute or characteristic of the data being stored, such as a person's name, age, or address.
+
+5. **Primary Key:** In a relational database, a primary key is a unique identifier for each record in a table. It ensures that each row in the table can be uniquely identified and serves as a reference point for establishing relationships with other tables.
+
+6. **SQL (Structured Query Language):** SQL is a standardized programming language used to communicate with and manage relational databases. It allows users to perform various operations such as querying, inserting, updating, and deleting data in a database.
+
+7. **Query:** A query is a request or command written in SQL to retrieve specific information from a database. It allows users to extract data that meets certain criteria, filter results, and perform calculations or operations on the data.
+
+8. **Index:** An index is a data structure in a database that provides a quick lookup mechanism for locating specific records or rows based on the values of one or more columns. It helps improve the performance of database queries by speeding up data retrieval operations.
+
+9. **Normalization:** Normalization is the process of organizing and structuring a database design to reduce redundancy and dependency, thereby improving data integrity and efficiency. It involves breaking down large tables into smaller, related tables and applying rules to eliminate data anomalies.
+
+10. **Database Management System (DBMS):** A DBMS is a software application or system that facilitates the creation, management, and administration of databases. It provides tools and features for defining database structures, storing and retrieving data, enforcing data integrity, and ensuring security and concurrency control. Examples include MySQL, Oracle Database, Microsoft SQL Server, and PostgreSQL.
